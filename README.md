@@ -39,7 +39,6 @@ LiteUAV-Det is designed with the following goals:
 The architecture emphasizes efficient feature extraction and multi-scale representation to ensure reliable detection of small targets in UAV imagery.
 
 ---
-                                                                                                                                                            >
 ***<p align="center">Architecture of LiteUAV-Det***<br><br>
 <img src="images/Fig.3.jpg" width="90%" height="100%"><br><br>
 ***<p align="center">The detailed demonstration of feature map***<br><br>
