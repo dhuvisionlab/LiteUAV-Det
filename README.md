@@ -1,11 +1,11 @@
-# YOLO-JD<br>
+# LiteUAV-Det<br>
 This repos contains the official codes for papers:<br>
 <br>
-**YOLO-JD: A Deep Learning Network for Jute Diseases and Pests Detection from Images**<br>
-[D. Li†](https://davidleepp.github.io/), F. Ahmed†, N. Wu*, and A.I. Sethi<br>
+**LiteUAV-Det: A Lightweight Network for Robust Small-Object Detection in Complex Aerial Scenes**<br>
+[Sayed Jobaera†]([https://davidleepp.github.io](https://sayed-jobaer.github.io/)/), A. A. M. Muzahida*, Muhammad Ather Iqbal Hussaind†, F. Ahmed†, and A.I. Sethi<br>
 <ins>†</ins> *Equal contribution*<br>
 Pubilshed on *Plants* in 2022<br>
-[[Paper](https://www.mdpi.com/2223-7747/11/7/937)]<br>
+[[Paper]()]<br>
 <br>
 
 ## Prerequisites<br>
