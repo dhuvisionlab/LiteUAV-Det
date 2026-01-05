@@ -2,7 +2,7 @@
 This repos contains the official codes for papers:<br>
 <br>
 **LiteUAV-Det: A Lightweight Network for Robust Small-Object Detection in Complex Aerial Scenes**<br>
-[Sayed Jobaera†]([https://davidleepp.github.io](https://sayed-jobaer.github.io/)/), A. A. M. Muzahida*, Muhammad Ather Iqbal Hussaind†, F. Ahmed†, and A.I. Sethi<br>
+[Sayed Jobaera†]([https://davidleepp.github.io](https://sayed-jobaer.github.io/)/), A. A. M. Muzahida*, Muhammad Ather Iqbal Hussaind†, F. Ahmed†, Xiaoshan Bai and Ferdous Sohel<br>
 <ins>†</ins> *Equal contribution*<br>
 Under Review <br>
 [[Paper]()]<br>
@@ -75,7 +75,7 @@ These characteristics make the dataset well-suited for benchmarking lightweight 
 Raw data needs to be preprocessed before it can be fed into networks for training or testing. First, we apply image pre-processing methods such as brightness correction and image filtering on sample images to enhance the quality of the dataset. Then, an annotation software called ‘LabelImg’ was used to draw the ground truth bounding boxes of the disease or pests in all images. Visit this link to download the LabelImg: https://github.com/HumanSignal/labelImg <be>
 
 ### Data_Download<br>
-Visit this link to download the dataset: https://1drv.ms/u/s!Al1NYDOSIj467ysFMpzJWJc7fEtc?e=FIU6bX
+Visit this link to download the dataset: https://github.com/dhuvisionlab/SODNet
 
 ## Acknowledgement
 Part of our code was descended and modified from the open-source code by ultralytics. Their original code can be found at: [https://github.com/ultralytics/yolov5.git].
@@ -84,15 +84,11 @@ Part of our code was descended and modified from the open-source code by ultraly
 ## Citation<br>
 Please consider citing our papers if the project helps your research with the following BibTex:
 ```
-@article{li2022plantnet,
-  title={YOLO-JD: A Deep Learning Network for Jute Diseases and Pests Detection from Images},
-  author={Li, Dawei and Ahmed, Foysal and Wu, Nailong and Sethi, A.Ishrat},
-  journal={Plants},
-  volume={11(7)},
-  pages={937},
-  year={2022},
-  publisher={MDPI}
-  issn = {2223-7747},
-  doi = {https://doi.org/10.3390/plants11070937}
+@article{jobaer2022liteuavdet,
+  title={LiteUAV-Det: A Lightweight Network for Robust Small-Object Detection in Complex Aerial Scenes},
+  author={},
+  journal={},
+  year={}
 }
+
 ```
