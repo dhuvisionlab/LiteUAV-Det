@@ -2,7 +2,7 @@
 This repos contains the official codes for papers:<br>
 <br>
 **LiteUAV-Det: A Lightweight Network for Robust Small-Object Detection in Complex Aerial Scenes**<br>
-[Sayed Jobaera†]([https://davidleepp.github.io](https://sayed-jobaer.github.io/)/), A. A. M. Muzahida*, Muhammad Ather Iqbal Hussaind†, F. Ahmed†, Xiaoshan Bai and Ferdous Sohel<br>
+[Sayed Jobaera†]([https://davidleepp.github.io](https://sayed-jobaer.github.io/)/), A. A. M. Muzahida*, Muhammad Ather Iqbal Hussaind†, Foysal Ahmed†, Xiaoshan Bai and Ferdous Sohel<br>
 <ins>†</ins> *Equal contribution*<br>
 Under Review <br>
 [[Paper]()]<br>
