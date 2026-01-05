@@ -4,7 +4,7 @@ This repos contains the official codes for papers:<br>
 **LiteUAV-Det: A Lightweight Network for Robust Small-Object Detection in Complex Aerial Scenes**<br>
 [Sayed Jobaera†]([https://davidleepp.github.io](https://sayed-jobaer.github.io/)/), A. A. M. Muzahida*, Muhammad Ather Iqbal Hussaind†, F. Ahmed†, and A.I. Sethi<br>
 <ins>†</ins> *Equal contribution*<br>
-Pubilshed on *Plants* in 2022<br>
+Under Review <br>
 [[Paper]()]<br>
 <br>
 
@@ -14,28 +14,60 @@ The code written in pytorch, and their corresponding configurations are as follo
   * Python >=3.7
   * Pytorch >=1.8.0 
 
-## Introduction<br>
+## 📄 Introduction
 
-Plant diseases and pests are a global threat to crop yields, and they may be even more destructive for smallholder farmers whose livelihoods depend heavily on healthy harvests.  In this scenario, early and precise detection of plant diseases and pests is critical for avoiding losses in agricultural production. Recently, disease prevention in jute plants has become an urgent topic as a result of the growing demand for finer quality fiber.<br><br>
-This research presents a deep-learning network called YOLO-JD for detecting jute diseases from images. In the main architecture of YOLO-JD, we integrated three new modules such as Sand Clock Feature Extraction Module (SCFEM), Deep Sand ClockFeature Extraction Module (DSCFEM), and Spatial Pyramid Pooling Module (SPPM) to extract image features effectively. We also built a new large-scale image dataset for jute diseases and pests with ten classes.<br>
-***<p align="center">Architecture of YOLO-JD***<br><br>
+Small-object detection from unmanned aerial vehicle (UAV) imagery is a challenging task due to high flight altitude, limited object pixels, motion blur, illumination variation, and cluttered backgrounds. Conventional object detectors often struggle in such scenarios, as they are primarily optimized for medium- and large-scale objects.
+
+To address these challenges, we propose **LiteUAV-Det**, a **lightweight and efficient object detection network** designed specifically for **robust small-object detection in complex aerial scenes**. The proposed architecture focuses on preserving fine-grained spatial features while maintaining low computational complexity, making it suitable for real-time deployment on resource-constrained platforms.
+
+LiteUAV-Det introduces architectural optimizations that balance accuracy and efficiency, enabling effective detection of small objects under diverse aerial conditions such as urban environments, traffic scenes, and crowded areas. Experimental results demonstrate that LiteUAV-Det achieves competitive detection accuracy while significantly reducing model size and computational cost.
+
+---
+
+## 🧠 Network Overview
+
+LiteUAV-Det is designed with the following goals:
+- Enhanced small-object feature representation
+- Lightweight computation for real-time inference
+- Robust performance in complex aerial backgrounds
+
+The architecture emphasizes efficient feature extraction and multi-scale representation to ensure reliable detection of small targets in UAV imagery.
+
+---
+                                                                                                                                                            >
+***<p align="center">Architecture of LiteUAV-Det***<br><br>
 <img src="images/1.png" width="90%" height="100%"><br><br>
-***<p align="center">The detailed demonstration of several key modules in YOLO-JD***<br><br>
+***<p align="center">The detailed demonstration of several key modules in LiteUAV-Det***<br><br>
 <img src="images/2.png" width="90%" height="90%"><br><br>
-***<p align="center">YOLO-JD detection on images that have multiple instances of the same disease and that have multiple classes of diseases and pests on the same image***<br><br>
+***<p align="center">Detection results in complex UAV scenes***<br><br>
 <img src="images/3.png" width="90%" height="90%"><br><br>
 
 ## Quick Start<br>
 
 ```bash
-git clone https://github.com/foysalahmed10/YOLO-JD.git # clone
-cd YOLO-JD-master
-pip install -r requirements.txt  # install
+git clone https://github.com/dhuvisionlab/LiteUAV-Det.git
+cd LiteUAV-Det
+pip install -r requirements.txt
 ```
 
 
 ## Original_Dataset<br>
-The images of jute diseases and pests were collected in Jamalpur and Narail districts in Bangladesh in July 2021. To diversify the dataset, the images were captured over the course of a single day under both sunny and cloudy weather. The images were captured by a Canon Powershot G16 camera and the camera of a Samsung Galaxy S10 with different viewing angles and different distances (0.3–0.5 m). In total, 4418 images in multiple jute disease and pest classes were obtained. The light intensity and background circumstances of the images vary greatly in the dataset. Though the image sizes are not uniform in our dataset, we prepare a normalization step at the beginning of the network to unify all images to a fixed resolution of 640 × 640. Eight common diseases including stem rot, anthracnose, black band, soft rot, tip blight, dieback, jute mosaic, and jute chlorosis, as well as two pests—Jute Hairy Caterpillar, and Comophila sabulifers—are incorporated into our dataset.<br><br>
+To evaluate the performance of LiteUAV-Det, a dedicated aerial dataset was constructed focusing on **small-object detection in complex scenes**.
+
+The dataset was collected using UAV-mounted cameras under real-world flight conditions. Image acquisition was performed at varying altitudes, viewpoints, and illumination settings to capture diverse aerial environments. The dataset includes scenes such as roads, traffic intersections, open areas, and urban backgrounds, where objects appear small, densely distributed, and often partially occluded.
+
+All images were manually annotated with bounding boxes to ensure accurate localization of small objects. The dataset includes multiple object categories commonly encountered in aerial surveillance and monitoring tasks. During preprocessing, images are resized to a fixed resolution to maintain consistency across training and evaluation.
+
+The dataset presents significant challenges, including:
+- Extremely small object sizes
+- High background complexity
+- Scale variation and occlusion
+- Motion blur and illumination changes
+
+These characteristics make the dataset well-suited for benchmarking lightweight UAV-based object detection models.
+
+---
+
 ***<p align="center">Some sample images from our jute diseases and pests dataset***<br><br>
 <img src="images/4.png" width="90%" height="90%"><br><br>
 
