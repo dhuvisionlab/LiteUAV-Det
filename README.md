@@ -9,7 +9,7 @@ Under Review <br>
 <br>
 
 <p align="center">
-  <img src="images/Fig.1.jpg" width="95%">
+  <img src="images/Fig.1.png" width="95%">
 </p>
 
 
