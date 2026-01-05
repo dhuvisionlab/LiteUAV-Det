@@ -43,9 +43,9 @@ The architecture emphasizes efficient feature extraction and multi-scale represe
 <img src="images/Fig.3.jpg" width="90%" height="100%"><br><br>
 ***<p align="center">Detailed visualization of feature maps***<br><br>
 <img src="images/Fig.7.jpg" width="90%" height="90%"><br><br>
-***<p align="center">Detection results in SOD Dataset***<br><br>
+***<p align="center">Detection results on the SOD dataset***<br><br>
 <img src="images/Fig.15.jpg" width="90%" height="90%"><br><br>
-***<p align="center">Detection results in visdrone Dataset***<br><br>
+***<p align="center">Detection results on the VisDrone dataset***<br><br>
 <img src="images/Fig.17.jpg" width="90%" height="90%"><br><br>
 
 ## Quick Start<br>
