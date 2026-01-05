@@ -8,6 +8,11 @@ Under Review <br>
 [[Paper]()]<br>
 <br>
 
+<p align="center">
+  <img src="images/Fig.1.jpg" width="95%">
+</p>
+
+
 ## Prerequisites<br>
 The code written in pytorch, and their corresponding configurations are as follows:
 * All deep networks run under Ubuntu 18.04
@@ -36,11 +41,13 @@ The architecture emphasizes efficient feature extraction and multi-scale represe
 ---
                                                                                                                                                             >
 ***<p align="center">Architecture of LiteUAV-Det***<br><br>
-<img src="images/1.png" width="90%" height="100%"><br><br>
-***<p align="center">The detailed demonstration of several key modules in LiteUAV-Det***<br><br>
-<img src="images/2.png" width="90%" height="90%"><br><br>
-***<p align="center">Detection results in complex UAV scenes***<br><br>
-<img src="images/3.png" width="90%" height="90%"><br><br>
+<img src="images/Fig.3.jpg" width="90%" height="100%"><br><br>
+***<p align="center">The detailed demonstration of feature map***<br><br>
+<img src="images/Fig.7.jpg" width="90%" height="90%"><br><br>
+***<p align="center">Detection results in SOD Dataset***<br><br>
+<img src="images/15.png" width="90%" height="90%"><br><br>
+***<p align="center">Detection results in visdrone Dataset***<br><br>
+<img src="images/Fig.17.jpg" width="90%" height="90%"><br><br>
 
 ## Quick Start<br>
 
