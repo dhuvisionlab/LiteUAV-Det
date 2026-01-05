@@ -45,7 +45,7 @@ The architecture emphasizes efficient feature extraction and multi-scale represe
 ***<p align="center">The detailed demonstration of feature map***<br><br>
 <img src="images/Fig.7.jpg" width="90%" height="90%"><br><br>
 ***<p align="center">Detection results in SOD Dataset***<br><br>
-<img src="images/15.png" width="90%" height="90%"><br><br>
+<img src="images/15.jpg" width="90%" height="90%"><br><br>
 ***<p align="center">Detection results in visdrone Dataset***<br><br>
 <img src="images/Fig.17.jpg" width="90%" height="90%"><br><br>
 
@@ -76,7 +76,7 @@ These characteristics make the dataset well-suited for benchmarking lightweight 
 ---
 
 ***<p align="center">Some sample images from our jute diseases and pests dataset***<br><br>
-<img src="images/4.png" width="90%" height="90%"><br><br>
+<img src="images/Fig.2.jpg" width="90%" height="90%"><br><br>
 
 ### Data_preprocessing<br>
 Raw data needs to be preprocessed before it can be fed into networks for training or testing. First, we apply image pre-processing methods such as brightness correction and image filtering on sample images to enhance the quality of the dataset. Then, an annotation software called ‘LabelImg’ was used to draw the ground truth bounding boxes of the disease or pests in all images. Visit this link to download the LabelImg: https://github.com/HumanSignal/labelImg <be>
